@@ -1,0 +1,4 @@
+{
+  "extends": "@novecom/ts-config/react.json",
+  "include": ["src"]
+}

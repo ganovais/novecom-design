@@ -1,0 +1,4 @@
+{
+  "extends": "@novecom/ts-config/base.json",
+  "include": ["src"]
+}
