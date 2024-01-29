@@ -23,6 +23,16 @@ const config: StorybookConfig = {
   },
   docs: {
     autodocs: "tag",
+  },
+  viteFinal: (config, { configType }) => {
+    console.log('configType', configType)
+    
+    if (configType === 'PRODUCTION') {
+      config.base = '/novecom-design/'
+    }
+
+    return config
   }
+
 };
 export default config;
